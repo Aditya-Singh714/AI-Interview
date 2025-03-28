@@ -203,3 +203,36 @@ export const interviewCovers = [
   "/tiktok.png",
   "/yahoo.png",
 ];
+
+export const dummyInterviews: Interview[] = [
+  {
+    id: "1",
+    userId: "101",
+    role: "Frontend Developer",
+    type: "Technical",
+    techstack: ["react, TypeScript, Tailwind CSS"],
+    level: "Junior",
+    questions: [
+      "What are the key differences between React and Next.js?",
+      "How does useState work in React?",
+      "Explain Tailwind CSS utility classes."
+    ],
+    finalized: false,
+    createdAt: "2025-03-24T10:00:00Z"
+  },
+  {
+    id: "2",
+    userId: "102",
+    role: "Backend Developer",
+    type: "Technical",
+    techstack: ["Node.js, Express, MongoDB"],
+    level: "Mid",
+    questions: [
+      "Explain the event loop in Node.js.",
+      "What are the advantages of using MongoDB over SQL databases?",
+      "How does middleware work in Express?"
+    ],
+    finalized: true,
+    createdAt: "2025-03-24T11:00:00Z"
+  }
+]
